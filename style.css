@@ -67,26 +67,3 @@ footer {
     color: #222;
     font-size: 0.8rem;
 }
-
-.chill-guy-img {
-    max-width: 300px;
-    height: auto;
-    filter: drop-shadow(20px 40px 60px rgba(58, 56, 56, 0.1));
-    animation: sway 40s ease-in-out infinite;
-}
-
-@keyframes sway {
-    0%,
-    100% {
-        transform: rotate(-2deg);
-    }
-    50% {
-        transform: rotate(2deg);
-    }
-}
-
-history.html {
-    background-color: rgb(138, 142, 126);
-    text-align: center;
-    text-anchor: #52ac52;
-}
